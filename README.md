@@ -1,2 +1,4 @@
 # indian_liver_patients
 Indian patient records to determine which patients have liver disease. This is a kaggle[https://www.kaggle.com/uciml/indian-liver-patient-records/home] competition. The data is from Lichman, M. (2013). UCI Machine Learning Repository [http://archive.ics.uci.edu/ml]. Irvine, CA: University of California, School of Information and Computer Science.
+
+Compare performance of [random forest](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_patients_random_forest.ipynb), [logistic regression](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_logistic.ipynb), and [neural network](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_patients-NN.ipynb) performances on identifying liver patients from their blood panel. The traing procedures for each model can be found in the hyperlink.  
