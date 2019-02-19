@@ -6,3 +6,10 @@ Compare performance of [random forest](https://github.com/worasom/indian_liver_p
 There are a number of machine learning papers that work on this data set;for example:
 - Bendi Venkata Ramana, Prof. M. S. Prasad Babu and Prof. N. B. Venkateswarlu, "A Critical Comparative Study of Liver Patients from USA and INDIA: An Exploratory Analysis", International Journal of Computer Science Issues, (May 2012)
 - Bendi Venkata Ramana and Prof. M.Surendra Prasad Babu, "Liver Classification Using Modified Rotation Forest" International Journal of Engineering Research and Development,  (June 2012)
+
+Skills 
+•	Exploratory data analysis and feature engineering using Python (pandas, numpy, matplot. pyplotlib).
+•	Experimented with different models (Logistic regression,  random forest classifier, K-nearest neighbors, neural network) using Python (scikit-learn, pytorch, fastai)
+•	Hyper parameter tuning with randomsearchCV (scikit-learn)
+•	Calculate feature of importance
+•	Achieved 73% accuracy on the validation set
