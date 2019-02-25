@@ -12,4 +12,4 @@ Skills
 •	Experimented with different models (Logistic regression,  random forest classifier, K-nearest neighbors, neural network) using Python (scikit-learn, pytorch, fastai)
 •	Hyper parameter tuning with randomsearchCV (scikit-learn)
 •	Calculate feature of importance
-•	Achieved 73% accuracy on the validation set
+•	Achieve 78% accuracy on the validation set(baseline = 72%) , loss =  0.47(baseline 0.69) 
