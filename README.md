@@ -28,6 +28,7 @@ Dataset (target) has 1 and 2, which 2 means healthy.
 ## Explore age and gender of the patients 
 
 **Counting the number of patients**
+
 ![](https://github.com/worasom/indian_liver_patients/blob/master/figgit/fig2.png)
 
 Number of patients diagnosed with liver disease:  416
@@ -59,11 +60,13 @@ Strong correlation between Direct Bilirubin and Total Bilirubin, Albumin and Tot
 After hyperparameter tuning, I obtain about 78% accuracy. Then, I calculate feature of importance. Feature of importance for logistic regression can be obtained from coef_ attribute, or by creating a function that permute each column and see how that effect the accuracy.Columns with low feature of importances can be dropped.
 
 These are feature of importance from logistic regression baed on coef_ attribute.  
+
 ![](https://github.com/worasom/indian_liver_patients/blob/master/figgit/fig7.png)
 
 In this case, dropping low importance features does not drastically improve the accuracy. I end up with about 78% accuracy. 
 
 This is the confusion matrix. 
+
 ![](https://github.com/worasom/indian_liver_patients/blob/master/figgit/fig8.png)
 
 # Random Forest Classifier [notebook](https://github.com/worasom/indian_liver_patients/blob/master/Indian_liver_patients_random_forest.ipynb) 
